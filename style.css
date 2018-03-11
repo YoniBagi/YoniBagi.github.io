@@ -1,0 +1,223 @@
+.body{
+	margin:10;
+	color:white;
+	background: #404040;
+	position:relative;
+	 
+}
+p{
+	font-size:20px;
+	padding-bottom:100px;
+}
+
+#top{
+	padding-top:200px;
+	padding-left:50px;
+	padding-right:10px;
+	padding-bottom:100px;
+
+	background: #666;
+}
+	@media (min-width:600px){
+#top{
+	width:83%;
+	}
+	}
+#MyName{
+	font-family: Lobster;
+	font-size: 26px;
+	color: #D4AF37;
+}
+#navi{
+	font-family: Kalam;
+	font-size: 20px;
+	/*padding-bottom:20px;*/
+	
+}
+hr.starRight{
+    border-top:solid 5px;
+    /*width:500px;*/
+    color: #DAA520;
+    text-align: right;
+	padding-bottom:10px;
+	overflow: visible;  /*the default setting for overflow on hr tags is hidden. so the text can extend outside the boundaries of the hr.*/
+	
+}
+hr.starRight:after{
+	
+ content: "</>";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 3em;
+    padding: 0 0.25em;
+	color: #DAA520;
+	background: #666;
+}
+.skills{
+	font-size:28px;
+	padding-bottom:100px;
+	
+}
+/* .myPic{
+	/*border-radius:50%;
+	
+	width:300px;
+	height:300px;	
+	transform: rotate(-90deg);
+	
+} */
+
+#portfolio{
+	padding-top:50px;
+	padding-bottom:20px;
+	/*padding-left:500px;
+	padding-right:10px;*/
+	background: #e5e5e5;
+}
+	@media (min-width:600px){
+#portfolio{
+	width:83%;
+	}
+	}
+h2{
+	color: #666;
+	/*font-size: 60px;*/
+	text-align: center;
+	left: -80px;
+	padding-bottom:25px;
+}
+hr.starCenter{
+    border-top:solid 5px;
+    width:50%;
+    color: #DAA520;
+    text-align: center;
+	padding-bottom:50px;
+	overflow: visible;  /*the default setting for overflow on hr tags is hidden. so the text can extend outside the boundaries of the hr.*/
+	
+}
+hr.starCenter:after{
+	
+ content: "</>";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 3em;
+    padding: 0 0.25em;
+	color: #DAA520;
+	background: #e5e5e5;
+	
+}
+.col-md-4{
+	padding-bottom:50px;
+}
+iframe{
+	padding-bottom:50px;
+}
+.imgPortfolio{
+	display:block;
+	width:100%;
+	max-width:262Px;
+	height:360px;
+	padding-bottom:50px;
+	cursor: zoom-in;
+	transition: 0.3s;
+}
+.imgPortfolio:hover{
+	opacity: 0.5;
+}
+.imgFinal{
+	display:block;
+	width:100%;
+	max-width:420px;
+	height:225px;
+	cursor: zoom-in;
+	transition: 0.3s;
+}
+.imgFinal:hover{
+	opacity: 0.5;
+}
+#row2{
+	padding-top:50px;
+}
+.col-md-6{
+	padding-bottom:50px;
+}
+#contact{
+	padding-top:50px;
+	padding-bottom:50px;
+	background: #e5e5e5;
+}
+	@media (min-width:600px){
+#contact{
+	width:83%;
+	}
+}
+
+hr.starCent{
+     border-top:solid 1px; 
+      width:100%; 
+    color: #404040;
+	padding-bottom:100px;
+	
+}
+label{
+	color: #666;
+}
+/* .row{
+	display:flex;
+} */
+ #footer{
+	background: #666;
+	
+ }
+ 
+/* footer {
+	background: #666;
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
+   height:200px; 
+   text-align: center;
+
+} */
+ #FooterMade{
+	bottom: 0;
+}  
+#linkFooter{
+	color: #DAA520;
+	font-weight: bold;
+	
+}
+ #FooterAround{
+	bottom: 0;
+} 
+#footerSpan{
+	font-size:18px;
+}
+.buttonSocial{
+	font-size:48px;
+	color:white;
+}
+.buttonSocial:hover{
+	color:#DAA520;
+	
+}
+#myBtn{
+	display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+   background-color:rgba(0,0,0,0);/* Set a background color */
+   color:#DAA520; /* Set a color */
+   /* color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+   /* border-radius: 10px; /* Rounded corners */
+   font-size:48px;
+}

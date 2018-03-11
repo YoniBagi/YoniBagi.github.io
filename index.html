@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width"><!--  Let to small devices to show web for mobile -->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> 
+<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--   library of CSS animations. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"><!--  Awesome icons -->
+  <script>
+	$(document).ready(function(){
+		$("#btnReset").on("click" , function(){
+			$("#myForm").addClass("animated hinge").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+				$(this).removeClass("animated hinge");
+			});
+		});
+		
+		$("#myBtn").on("mouseover", function(){
+			$(this).addClass("animated pulse").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+				$(this).removeClass("animated pulse");
+			});
+		});
+		
+	/*	$("#btnReset").on("mouseover" , function(){
+			$("#btnReset").addClass("animated shake").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+				$(this).removeClass("animated shake");
+			});
+		});
+		btnSend*/
+		$("#btnSend").on("mouseover" , function(){
+			$("#btnSend").addClass("animated shake").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+				$(this).removeClass("animated shake");
+			});
+		});
+		
+	});
+  </script>
+</head>
+	<body class="body" data-spy="scroll" data-target=".navbar">
+		<header>
+				<nav class = "navbar navbar-inverse  navbar-fixed-top"><!--  "inverse" for black color navigation. "fixed-top" for fixed in top -->
+					<div class = "container-fluid">
+						<div class="navbar-header"> <!-- Define the part that no belong to buttons navigation  -->
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<!-- <span class="sr-only">Toggle navigation</span> -->
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#top" id="MyName">Yonatan Bagizada</a>
+						</div> 
+
+						<div class="collapse navbar-collapse navbar-right" id="myNavbar">
+							<ul class="nav navbar-nav" id="navi"> 
+								<li><a href="#top">ABOUT</a></li>
+								<li> <a  href="#portfolio" >PORTFOLIO</a></li>
+								<li> <a  href="#contact" >CONTACT</a></li>
+							</ul>
+						</div>
+								
+					</div>
+				</nav>
+			
+			<div class="container-fluid" id="top" >
+					<div class="row">
+						<div class="col-md-8">
+							
+							<p>Software developer and graduate degree in software engineering. devoted to programming and develop for Desktop, Mobile and Web.<br>I have experience with languages C++; C#; Java; script language, libraries, technologies and web frameworks.
+							</p>
+							<hr class="starRight"/>
+							<div style="text-align:center;">
+							<span class="skills">Unix - Android - Windows</span>
+							</div>
+						</div>
+						<div class="col-md-4 ">
+							<img src="https://dl.dropbox.com/s/lrh67k6z82oqlfz/mypicBlack.png?dl=0" alt="A picture of Yonatan" class =" img-circle center-block"/>
+						</div>
+					</div>
+			</div>
+		</header>
+		<main>
+				<section class="container-fluid" id="portfolio">
+					<h2><b>PORTFOLIO</b></h2>
+					<hr class="starCenter"/>
+					<div class="row">
+						<div class="col-md-2">
+						</div>
+						<div class="col-md-8">
+					<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item center-block " 
+									src="https://www.youtube.com/embed/nMrEVB4yI1w?autoplay=1" allowfullscreen>
+								</iframe>
+								</div>
+							</div>
+							</div>
+						<div class="row">
+						<div class="col-md-2">
+						</div>
+						<div class="col-md-8">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+						<div class="item active">
+						  <a href="https://play.google.com/store/apps/details?id=com.yonatan.asusx541u.pacPrayerTime" target="_blank"><img class="center-block img-rounded" src="https://dl.dropbox.com/s/e1v7cvdx9c0j6nq/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%201.PNG?dl=0" alt="screenshot 1"></a>
+						</div>
+
+						<div class="item">
+						  <img class="center-block img-rounded" src="https://dl.dropbox.com/s/j39vddudo5856mj/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202.PNG?dl=0" alt="screenshot 2">
+						</div>
+
+						<div class="item">
+						  <img class="center-block img-rounded" src="https://dl.dropbox.com/s/rw9se5815h8oaxm/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%203.PNG?dl=0" alt="screenshot 3">
+						</div>
+					  </div>
+
+					  <!-- Left and right controls -->
+					  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+					</div>
+					<div class="col-md-2">
+					</div>
+				</div>
+						
+					 <div id="row2" class="row">
+						<div class="col-md-6"> 
+							<!-- Trigger the modal with a image -->
+							
+								<a data-toggle="modal" data-target="#ModalFinalProject">
+							<img src="https://dl.dropbox.com/s/j31g4i5j92z3gjl/Final%20Project.jpg?dl=0" alt="Final Project" class="img-rounded imgFinal center-block" />
+							</a>
+						 </div>
+						<div class="col-md-6"> 
+							<a data-toggle="modal" data-target="#ModalMyWebsite">
+								<img src="https://dl.dropbox.com/s/twtye2sc6tcexyb/myWeb.JPG?dl=0" alt="My website" class="img-rounded imgFinal center-block"/>
+							</a>
+						</div> 
+					</div>
+					<a data-toggle="modal" data-target="#ModalRecommendation">
+					 <img src="https://dl.dropbox.com/s/ftfb4ctwo0m5ar0/recommendation.JPG?dl=0" alt="recommendation" class="img-rounded imgPortfolio center-block" />
+					</a>
+					<a data-toggle="modal" data-target="#ModalDataBase">
+					 <img src="https://dl.dropbox.com/s/yk8epg3q1t77fyk/DB%20Google.jpg?dl=0" alt="Application DataBase" class="img-rounded imgFinal center-block"/>
+					</a>
+					 <!-- Modal Final Project -->
+					 <div class="modal fade" id="ModalFinalProject" role="dialog">
+						<div class= "modal-dialog modal-lg">
+							<!-- Modal content -->
+							<div class="modal-body">
+								<img src="https://dl.dropbox.com/s/j31g4i5j92z3gjl/Final%20Project.jpg?dl=0" alt="Final Project" width=100%>
+							</div>
+							<button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+						</div>
+					 </div>
+					 <!-- Modal My website -->
+					 <div class="modal fade" id="ModalMyWebsite" role="dialog">
+						<div class= "modal-dialog modal-lg">
+							<!-- Modal content -->
+							<div class="modal-body">
+								<img src="https://dl.dropbox.com/s/twtye2sc6tcexyb/myWeb.JPG?dl=0" alt="My website" width=100%>
+							</div>
+							<button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+						</div>
+					 </div>
+					  <!-- Modal Recommendation -->
+					 <div class="modal fade" id="ModalRecommendation" role="dialog">
+						<div class= "modal-dialog modal-lg">
+							<!-- Modal content -->
+							<div class="modal-body">
+								<img src="https://dl.dropbox.com/s/ftfb4ctwo0m5ar0/recommendation.JPG?dl=0" alt="recommendation" width=100%>
+							</div>
+							<button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+						</div>
+					 </div>
+					 <!-- Modal DataBase -->
+					 <div class="modal fade" id="ModalDataBase" role="dialog">
+						<div class= "modal-dialog modal-lg">
+							<!-- Modal content -->
+							<div class="modal-body">
+								<img src="https://dl.dropbox.com/s/yk8epg3q1t77fyk/DB%20Google.jpg?dl=0" alt="Application DataBase" width=100%>
+							</div>
+							<button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+						</div>
+					 </div>
+					 
+				</section>
+				
+				<section class="container-fluid" id="contact">
+					<hr class="starCent"/>
+					<h2><b>CONTACT ME</b></h2>
+					<hr class="starCenter"/>
+					
+					<form class="form-horizontal" action="contact.php" method="post" id="myForm">
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="name">Name</label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="nameContact" name="name" placeholder="Israeli Israeli"></input>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="email">Email</label>
+							<div class="col-sm-6">
+								<input type="email" class="form-control" id="emailContact" name="email" placeholder="Israeli.Israeli@example.com"></input>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2"
+							for="message">Your message</label>
+							<div class="col-md-6">
+							<textarea class="form-control" name="message" placeholder="Description"></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-offset-2 col-sm-4">
+								<button id="btnSend" type="submit" class="btn btn-default">Send Message</button>
+							</div>
+						
+						<div class=" col-sm-4">
+								<button id="btnReset" type="reset" onclick="resetFunction()"  class="btn btn-default">Reset</button>
+							</div>
+							</div>
+					</form>
+					
+				</section>
+		</main>
+		<button onclick="topFunction()" id="myBtn"><i class="fa fa-chevron-circle-up"></i></button>
+		<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 100) {
+					document.getElementById("myBtn").style.display = "block";
+				} else {
+					document.getElementById("myBtn").style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+			   
+			}
+			
+</script>
+		<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 text-center" id="FooterMade">
+					<h3><b>ABOUT THIS PAGE</b></h3>
+					<br/>  
+				 <span id="footerSpan">made with  <i class="fa fa-music"></i> and <i class="fa fa-coffee"></i> <br/>by <a href="https://bagi-software.000webhostapp.com/" id="linkFooter">Yonatan Bagizada</a> </span> 
+				 
+				</div>
+				<div class="col-xs-6 text-center" id="FooterAround">
+					<h3><b>AROUND THE WEB</b></h3>
+					<br/>
+					<ul class="list-inline">
+						<li><a class="buttonSocial" href="https://www.linkedin.com/in/bagisoftwareengineer/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+						<li><a class="buttonSocial" href="https://www.facebook.com/yonibagi" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a class="buttonSocial" href="#" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
+					</ul>
+					<ul class="list-inline">
+						<li><a class="buttonSocial" href="https://codepen.io/yonibagi/pen/OjOWNj" target="_blank"><i class="fa fa-codepen"></i></a></li>
+						<li><a class="buttonSocial" href="https://www.freecodecamp.org/fcc6f1edc86" target="_blank"><i class="fa fa-free-code-camp"></i></a></li>
+						<li><a class="buttonSocial" href="https://github.com/YoniBagi" target="_blank"><i class="fa fa-github"></i>
+					</ul>
+				</div>
+			</div>
+			
+			</div>
+			
+		</footer>
+	</body>
+</html>
+	
