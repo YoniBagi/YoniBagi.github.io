@@ -1,6 +1,11 @@
 # YoniBagi.github.io
 Personal responsive website - Yonatan Bagizada
 
+<a href="https://yonibagi.github.io/">https://yonibagi.github.io/</a>
+<p>P.S.</p>
+<p>The "Contact" section does not work in the above link because the GitHub server does not support PHP.
+ So if you want to use this part, go to the<a href="https://bagi-software.000webhostapp.com"> Website</a></p>
+
 <h2> Description </h2>
 This responsive website (fit for any screen size) displays personal information for self-presentation. The website includes a presentation of my projects and a portfolio.
 It is also possible to send a message and contact via LinkedIn, Facebook, CodePen, FreeCodeCamp, GitHub.
